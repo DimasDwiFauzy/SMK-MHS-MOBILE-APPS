@@ -38,6 +38,8 @@ const Home = ({navigation}) => {
         </View>
       </View>
 
+      
+
       <Text
         style={{
           color: 'black',
@@ -83,7 +85,8 @@ const Home = ({navigation}) => {
               }}>
               Menu Makanan
             </Text>
-            <TouchableOpacity onPress={() => navigation.navigate('Detail')}>
+            <TouchableOpacity 
+            onPress={() => navigation.navigate('Detail')}>
               <Image
                 source={{
                   uri: 'https://i.pinimg.com/236x/90/78/78/9078780616e015bf4afcafa1e979eec9.jpg',
@@ -91,7 +94,7 @@ const Home = ({navigation}) => {
                 style={{
                   width: 190,
                   height: 180,
-                  borderRadius: 6,
+                  borderRadius: 15,
                   marginTop: 11,
                 }}
               />
@@ -134,7 +137,7 @@ const Home = ({navigation}) => {
               style={{
                 width: 190,
                 height: 180,
-                borderRadius: 6,
+                borderRadius: 15,
                 marginTop: 39,
               }}
             />
@@ -161,17 +164,38 @@ const Home = ({navigation}) => {
           </View>
         </View>
       </View>
-      <View style={{flexDirection: 'row', marginTop: 150}}>
-        <View style={{flex: 1, padding: 12}}>
-          <View style={{height: 100}}>
-            <Text style={{fontWeight: 'bold', color: 'black', fontSize: 18}}>
+      <View style={{
+        flexDirection: 'row', 
+        marginTop: 150
+        }}>
+
+        <View style={{
+          flex: 1, 
+          padding: 12
+          }}>
+
+          <View style={{
+            height: 100
+            }}>
+              
+            <Text style={{
+              fontWeight: 'bold', 
+              color: 'black', 
+              fontSize: 18
+              }}>
+
               Menu Minuman
             </Text>
             <Image
               source={{
                 uri: 'https://i.pinimg.com/236x/c3/31/8a/c3318a41d9822894832ea78db2cc94b9.jpg',
               }}
-              style={{width: 190, height: 180, borderRadius: 6, marginTop: 11}}
+              style={{
+                width: 190, 
+                height: 180, 
+                borderRadius: 15, 
+                marginTop: 11
+              }}
             />
             <Text
               style={{
@@ -193,13 +217,21 @@ const Home = ({navigation}) => {
             </Text>
           </View>
         </View>
-        <View style={{flex: 1, padding: 12}}>
-          <View style={{height: 400}}>
+        <View style={{flex: 1, 
+          padding: 12
+          }}>
+          <View style={{
+            height: 400
+            }}>
             <Image
               source={{
                 uri: 'https://i.pinimg.com/564x/b9/8d/57/b98d577c133ccabfdb5d778f3c0dbe56.jpg',
               }}
-              style={{width: 190, height: 180, borderRadius: 6, marginTop: 40}}
+              style={{width: 190, 
+                height: 180, 
+                borderRadius: 15, 
+                marginTop: 40
+              }}
             />
             <Text
               style={{

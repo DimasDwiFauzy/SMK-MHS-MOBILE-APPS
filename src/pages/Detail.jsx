@@ -79,6 +79,12 @@ const Detail = ({navigation}) => {
               }}
               style={{width: 420, height: 6, borderRadius: 6, marginTop: 50, marginLeft:1,}}
             />
+      <Image
+              source={{
+                uri: 'http://clipart-library.com/new_gallery/1041454_white-line-png-transparent.png',
+              }}
+              style={{width: 420, height: 6, borderRadius: 6, marginTop: 0, marginLeft:1,}}
+            />
       <Text
         style={{
           fontFamily: 'DM Sans',
